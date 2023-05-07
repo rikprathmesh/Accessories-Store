@@ -1,0 +1,16 @@
+first go to strapi and copy command : npx create-strapi-app@latest my-project
+remove my-project and add "." so it open in to api folder which we created.
+
+type "y" for the packages.
+then "quick start".
+
+then manually run the project : npm run develop
+
+API TOKEN : 
+we can regenrate this token also from url
+
+at the end open "stripe" for payment gateway = sign in
+
+add secret key in api folders .env file
+then kill the process and add one plugin in to "api" = npm install stripe
+using this plugin we complete our payment integration
